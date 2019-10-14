@@ -1,0 +1,361 @@
+/*menu&footer*/
+body {
+   font-family: 'Baloo Bhaina', cursive;
+   background-color: white.
+   background-size: cover;
+   background-size: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background :  rgba(20, 20, 20, 0.856);
+            
+}
+
+footer{
+    display: flex;
+    background :  rgba(20, 20, 20, 0.856);
+    box-shadow:  3px 18px 43px 20px rgba(0,0,0,0.75);
+    color:aliceblue;
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.rs {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2FCE0F 0px 0px 20px, #2FCE0F 0px 0px 30px, #FF2D95 0px 0px 40px, #2FCE0F 0px 0px 50px, #FF2D95 0px 0px 75px;
+    
+}
+
+.cr {
+    display: flex;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2FCE0F 0px 0px 20px, #2FCE0F 0px 0px 30px, #FF2D95 0px 0px 40px, #2FCE0F 0px 0px 50px, #FF2D95 0px 0px 75px;
+   
+    
+}
+
+.ig {
+   
+   width: 60px;
+   height: 60px;
+    -webkit-transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	
+    
+}
+.ig:hover {
+    -webkit-transform: scale(1.3);
+	
+}
+
+.git {
+
+   width: 40px;
+   height: 40px;
+    -webkit-transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    
+}
+
+.git:hover {
+    -webkit-transform: scale(1.3);
+	
+}
+
+.logohome {
+    display: flex;
+    margin-right: 90px;
+    width: 90px;
+    animation: rotation 10s infinite linear;
+    
+    
+    
+}
+.logohome2{
+    display: flex;
+    width: 90px;
+    animation: rotation 10s infinite linear;
+    
+    
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+
+
+.menu ul li {
+    list-style: none;
+    margin-right: 90px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2FCE0F 0px 0px 20px, #2FCE0F 0px 0px 30px, #FF2D95 0px 0px 40px, #2FCE0F 0px 0px 50px, #FF2D95 0px 0px 75px;
+    
+}
+   
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+/*menu&footer*/
+
+.d1 {
+    display: flex;
+    width:500px;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.duolingo0 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    background-color: white;
+    margin-bottom: 50px;
+    height: 450PX;
+    
+}
+
+.a {
+    color: #8ECE1F;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+.a ab {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: row;
+    
+}
+
+.ab {
+    
+}
+
+.duolingo {
+    
+    display: flex;
+    background-color: #8ECE1F;
+    width: 105%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+.a1 {
+    display: flex;
+    width: 55%;
+    
+    
+    
+    
+   }
+.a2 {
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+.d2 {
+    display: flex;
+    width: 30%;
+    
+}
+.d3 {
+    display: flex;
+    width: 30%;
+    
+}
+.d4 {
+    display: flex;
+    width: 30%;
+    
+}
+.d5 {
+    display: flex;
+    width: 30%;
+    font-size: 30px;
+    
+}
+
+.duolingo1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    
+}
+.a3 {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+    
+    
+}
+ 
+.d6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: column;
+    
+   
+    
+}
+
+.d7 {
+    font-size: 25px;
+    display: flex
+        
+    
+}
+
+.d8 {
+    font-size: 25px;
+    display: flex;
+    
+}
+
+.duolingo2 {
+    display: flex;
+    background-color: #8ECE1F;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+}
+
+.d9 {
+    display: flex;
+    
+}
+
+.a4 {
+    font-size: 20px;
+}
+
+.duolingo3 {
+    display: flex;
+    
+    box-shadow:  3px 18px 43px 20px rgba(0,0,0,0.75);
+    color:black;
+    font-size: 25px;
+    flex-direction: ;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+}
+
+
+
+.fb{
+   width: 60px;
+   height: 60px;
+    -webkit-transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    
+}
+.duolingo4 {
+    display: flex;
+    color:black;
+    font-size: 25px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.android{
+   
+   width: 60px;
+   height: 60px;
+    -webkit-transform: scale(1);
+	-webkit-transition: .3s ease-in-out;}
+
+.ios{
+    width: 60px;
+   height: 60px;
+    -webkit-transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+}
+
+
+.fb:hover {
+    -webkit-transform: scale(1.3);
+	
+}
+
+
+.ios:hover {
+    -webkit-transform: scale(1.3);
+	
+}
+
+
+.android:hover {
+    -webkit-transform: scale(1.3);
+	
+}
